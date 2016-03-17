@@ -13,4 +13,5 @@ HTML/CSS任务目标：
 任务笔记：  
 >任务8  
 
-box-sizing属性很重要，目前正在思考如何在col内不放置元素的情况下实现效果。
+box-sizing属性很重要，目前正在思考如何在col内不放置元素的情况下实现效果。  
+>参考资料：[bootstrap中文网:栅格系统](http://v3.bootcss.com/css/#grid)
