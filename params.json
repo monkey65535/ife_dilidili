@@ -1,6 +1,6 @@
 {
   "name": "Ife dilidili",
   "tagline": "",
-  "body": "# ife_dilidili\r\n**ife百度前端技术学院**  \r\n前端深入学习，就此开始。  \r\nHTML/CSS任务目标：   \r\n>任务7  \r\n>任务8  \r\n>任务9  \r\n\r\n移动端任务目标：  \r\n>任务10  \r\n>任务11  \r\n\r\n任务笔记：  \r\n>任务8  \r\n\r\nbox-sizing属性很重要，目前正在思考如何在col内不放置元素的情况下实现效果。  \r\n>参考资料：[bootstrap中文网:栅格系统](http://v3.bootcss.com/css/#grid)",
+  "body": "# ife_dilidili\r\n**ife百度前端技术学院**  \r\n前端深入学习，就此开始。  \r\nHTML/CSS任务目标：   \r\n>任务7  \r\n>[任务8](http://monkey65535.github.io/ife_dilidili/task8/task8.html)  \r\n>任务9  \r\n\r\n移动端任务目标：  \r\n>任务10  \r\n>任务11  \r\n\r\n任务笔记：  \r\n>任务8  \r\n\r\nbox-sizing属性很重要，目前正在思考如何在col内不放置元素的情况下实现效果。  \r\n>参考资料：[bootstrap中文网:栅格系统](http://v3.bootcss.com/css/#grid)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
