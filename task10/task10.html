@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+        [class*='box_']{
+            width: 150px;
+            border:1px solid #f00;
+            padding: 20px;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+        .box_1{
+            height: 120px;
+        }
+        .box_2{
+            height: 100px;
+        }
+        .box_3{
+            height: 40px;
+        }
+        .box_4{
+            height: 200px;
+            border: 1px solid #0f0;
+        }
+        @media (max-width: 640px) {
+            .content{
+                align-items: flex-start;
+            }
+            .box_4{
+                order: -1;
+            }
+        }
+    </style>
+    <title>Task10 实现flex弹性布局</title>
+</head>
+<body>
+    <div class="content">
+        <div class="box_1">box1</div>
+        <div class="box_2">box2</div>
+        <div class="box_3">box3</div>
+        <div class="box_4">box4</div>
+    </div>
+</body>
+</html>

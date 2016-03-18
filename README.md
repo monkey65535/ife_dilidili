@@ -11,7 +11,9 @@ HTML/CSS任务目标：
 >任务11  
 
 任务笔记：  
->任务8  
+任务8 实现一个栅格化系统  
+>box-sizing属性很重要，目前正在思考如何在col内不放置元素的情况下实现效果。 
 
-box-sizing属性很重要，目前正在思考如何在col内不放置元素的情况下实现效果。  
->参考资料：[bootstrap中文网:栅格系统](http://v3.bootcss.com/css/#grid)
+>参考资料：[bootstrap中文网:栅格系统](http://v3.bootcss.com/css/#grid)  
+
+任务10 实现flex弹性布局  
