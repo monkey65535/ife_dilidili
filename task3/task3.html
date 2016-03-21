@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <style>
+        /*reset*/
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            padding: 20px;
+        }
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        /*content_float*/
+        .content_float,.content_position,.left,.center,.right{
+            padding: 20px;
+            border: 1px solid #999999;
+        }
+        .content_position{
+            background: #eeeeee;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .content_float{
+            background: #eeeeee;
+            overflow: hidden;
+        }
+        .left,.center,.right{
+            background: #fff;
+        }
+        .left{
+            width: 158px;
+        }
+        .left p{
+            float: right;
+        }
+        .right{
+            width: 78px;
+        }
+        /*content_position*/
+        .content_position .left,.content_position .right{
+            position: absolute;
+            top: 40px;
+        }
+        .content_position .left{
+            left: 40px;
+        }
+        .content_position .center{
+            margin: 0 142px 0 222px;
+        }
+        .content_position .right{
+            right: 40px;
+        }
+        /*position_float*/
+        .content_float .left{
+            float: left;
+        }
+        .content_float .center{
+            margin: 0 140px 0 220px;
+        }
+        .content_float .right{
+            float: right;
+        }
+
+    </style>
+    <title>task3:实现三栏式布局</title>
+</head>
+<body>
+<div class="content_position">
+    <div class="left">
+        <img src="img/img1.png">
+        <p>团队介绍</p>
+    </div>
+    <div class="center">
+        <h1>团队介绍</h1>
+        <p>我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！</p>
+    </div>
+    <div class="right">
+        <img src="img/img1.png">
+        <img src="img/img1.png">
+        <img src="img/img1.png">
+        <img src="img/img1.png">
+    </div>
+</div>
+<div class="content_float">
+    <div class="left">
+        <img src="img/img1.png">
+        <p>团队介绍</p>
+    </div>
+    <div class="right">
+        <img src="img/img1.png">
+        <img src="img/img1.png">
+        <img src="img/img1.png">
+        <img src="img/img1.png">
+    </div>
+    <div class="center">
+        <h1>团队介绍</h1>
+        <p>我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！我们是精通windows开关机小分队！</p>
+    </div>
+</div>
+
+</body>
+</html>
