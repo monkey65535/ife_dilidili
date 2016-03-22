@@ -8,6 +8,9 @@ HTML/CSS任务目标：
 >任务9  
 > [任务10](http://monkey65535.github.io/ife_dilidili/task10/task10.html)  
 
+JavaScript学习任务：
+>[任务13](http://monkey65535.github.io/ife_dilidili/task13/task13.html)
+
 移动端任务目标：  
 >任务11  
 
@@ -36,3 +39,9 @@ box-sizing属性很重要，目前正在思考如何在col内不放置元素的�
 [Flexbox简介](https://segmentfault.com/a/1190000002910324#articleHeader5)  
 [Flexbox——快速布局神器](http://www.w3cplus.com/css3/flexbox-basics.html)
 
+任务13  零基础JavaScript编码（一）  
+参考资料：  
+>[JavaScript入门篇](http://www.imooc.com/view/36)  
+>[MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)   
+
+笔记：最开始只用了最基础的方式，后来review了其他人的代码之后，发现要考虑到交互因素，故做了一次判断。后来听从朋友建议，使用了DOM事件：`addEventListener`进行了优化。
