@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    var Array = [
+            ["A",1],
+            ["B",5],
+            ["C",3],
+            ["D",2],
+            ["E",4]
+    ];
+    function o_Sort(a,b){
+        return b[1] - a[1];
+    }
+
+    for(var i = 0; i<Array.sort(o_Sort).length; i++){
+        if(Array[i][1]>2){
+            document.write(Array[i] + "</br>");
+        };
+    };
+</script>
+</body>
+</html>
